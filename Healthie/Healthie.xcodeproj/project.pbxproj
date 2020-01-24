@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74F6B64333A0794F7866F6C5 /* libPods-Healthie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0FB6B93C287D51E2262881 /* libPods-Healthie.a */; };
 		BBCA445C23DA9C600044448B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA445B23DA9C600044448B /* AppDelegate.swift */; };
 		BBCA445E23DA9C600044448B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA445D23DA9C600044448B /* SceneDelegate.swift */; };
 		BBCA446023DA9C600044448B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA445F23DA9C600044448B /* ContentView.swift */; };
 		BBCA446223DA9C660044448B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCA446123DA9C660044448B /* Assets.xcassets */; };
 		BBCA446523DA9C660044448B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCA446423DA9C660044448B /* Preview Assets.xcassets */; };
 		BBCA446823DA9C660044448B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA446623DA9C660044448B /* LaunchScreen.storyboard */; };
+		BBCA447123DA9E280044448B /* FoodAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA447023DA9E280044448B /* FoodAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082E6D7482F5FA631DA391D9 /* Pods-Healthie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthie.release.xcconfig"; path = "Target Support Files/Pods-Healthie/Pods-Healthie.release.xcconfig"; sourceTree = "<group>"; };
+		A68248BC01ECC3CC91BE09CD /* Pods-Healthie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthie.debug.xcconfig"; path = "Target Support Files/Pods-Healthie/Pods-Healthie.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCA445823DA9C600044448B /* Healthie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healthie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCA445B23DA9C600044448B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCA445D23DA9C600044448B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		BBCA446423DA9C660044448B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBCA446723DA9C660044448B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBCA446923DA9C660044448B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCA447023DA9E280044448B /* FoodAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAPI.swift; sourceTree = "<group>"; };
+		FF0FB6B93C287D51E2262881 /* libPods-Healthie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Healthie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F6B64333A0794F7866F6C5 /* libPods-Healthie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				BBCA445A23DA9C600044448B /* Healthie */,
 				BBCA445923DA9C600044448B /* Products */,
+				E7BC25914EAFA50C9C09FBD0 /* Pods */,
+				BF9ED228D7075B00D0FA6263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +71,7 @@
 				BBCA446123DA9C660044448B /* Assets.xcassets */,
 				BBCA446623DA9C660044448B /* LaunchScreen.storyboard */,
 				BBCA446923DA9C660044448B /* Info.plist */,
+				BBCA446F23DA9DF80044448B /* Network */,
 				BBCA446323DA9C660044448B /* Preview Content */,
 			);
 			path = Healthie;
@@ -75,6 +85,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BBCA446F23DA9DF80044448B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA447023DA9E280044448B /* FoodAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF9ED228D7075B00D0FA6263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FB6B93C287D51E2262881 /* libPods-Healthie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7BC25914EAFA50C9C09FBD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A68248BC01ECC3CC91BE09CD /* Pods-Healthie.debug.xcconfig */,
+				082E6D7482F5FA631DA391D9 /* Pods-Healthie.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +118,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBCA446C23DA9C660044448B /* Build configuration list for PBXNativeTarget "Healthie" */;
 			buildPhases = (
+				FF77F4A375EC72A86FED0E3C /* [CP] Check Pods Manifest.lock */,
 				BBCA445423DA9C600044448B /* Sources */,
 				BBCA445523DA9C600044448B /* Frameworks */,
 				BBCA445623DA9C600044448B /* Resources */,
@@ -141,6 +178,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FF77F4A375EC72A86FED0E3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Healthie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBCA445423DA9C600044448B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +210,7 @@
 			files = (
 				BBCA445C23DA9C600044448B /* AppDelegate.swift in Sources */,
 				BBCA445E23DA9C600044448B /* SceneDelegate.swift in Sources */,
+				BBCA447123DA9E280044448B /* FoodAPI.swift in Sources */,
 				BBCA446023DA9C600044448B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +345,7 @@
 		};
 		BBCA446D23DA9C660044448B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68248BC01ECC3CC91BE09CD /* Pods-Healthie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +365,7 @@
 		};
 		BBCA446E23DA9C660044448B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082E6D7482F5FA631DA391D9 /* Pods-Healthie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
