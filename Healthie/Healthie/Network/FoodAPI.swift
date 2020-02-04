@@ -15,16 +15,16 @@ enum NetworkError: Error {
     case success
 }
 
-class APIRequestFetcher {
+class FoodAPI {
     var searchResults = [JSON]()
     
-    func search(searchText: String, completionHandler: @escaping ([JSON]?, NetworkError) -> ()) {
+    func getFood(searchText: String, completionHandler: @escaping ([JSON]?, NetworkError) -> ()) {
         
         // –––––––– Add API URL
         let urlToSearch: String = ""
         
         // –––––––– GET Response
-        Alamofire.request(urlToSearch).responseJSON { response in
+        AF.request(urlToSearch).responseJSON { response in
             // Error: response is nil (i.e. network error)
             guard let data = response.data else {
                 completionHandler(nil, .failure)
@@ -45,7 +45,7 @@ class APIRequestFetcher {
     }
     
     func fetchImage(url: String, completionHandler: @escaping (UIImage?, NetworkError) -> ()) {
-        Alamofire.request(url).responseData { responseData in
+        AF.request(url).responseData { responseData in
             
             guard let imageData = responseData.data else {
                 completionHandler(nil, .failure)
