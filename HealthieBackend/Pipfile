@@ -13,6 +13,7 @@ flask-mongoengine = "*"
 flask-restful = "*"
 flask-bcrypt = "*"
 flask-jwt-extended = "*"
+Flask-DotEnv = "*"
 
 [requires]
 python_version = "3.7"
