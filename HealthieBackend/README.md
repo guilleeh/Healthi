@@ -16,3 +16,5 @@ pipenv shell
 python app.py
 
 
+## Reverse engineered instacart API
+https://github.com/kleinjm/instacart_api
