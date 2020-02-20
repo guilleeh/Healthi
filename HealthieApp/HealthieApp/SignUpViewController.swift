@@ -1,24 +1,40 @@
 //
-//  LoginViewController.swift
+//  SignUpViewController.swift
 //  HealthieApp
 //
-//  Created by Guillermo Hernandez on 2/18/20.
+//  Created by Guillermo Hernandez on 2/20/20.
 //  Copyright © 2020 Guillermo Hernandez. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var fullNameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var confirmPasswordField: UITextField!
+    @IBOutlet weak var ageField: UITextField!
+    @IBOutlet weak var heightField: UITextField!
+    @IBOutlet weak var weightField: UITextField!
     
-    @IBAction func onLogin(_ sender: Any) {
-        if(emailField.text != "" && passwordField.text != "") {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+
+    @IBAction func onRegister(_ sender: Any) {
+        if(fullNameField.text != "" && emailField.text != "" && passwordField.text != "" && confirmPasswordField.text != "" && ageField.text != "" && heightField.text != "" && weightField.text != "") {
+            let body: [String: Any] = [    "name": fullNameField.text!,
+                                           "email": emailField.text!,
+                                           "password": passwordField.text!,
+                                           "age": ageField.text!,
+                                           "height": heightField.text!,
+                                           "weight": weightField.text!]
             
-            let body: [String: Any] = ["email": emailField.text, "password": passwordField.text]
-            
-            let url = URL(string: "http://localhost:5000/api/auth/login")!
+            let url = URL(string: "http://localhost:5000/api/auth/signup")!
             var request = URLRequest(url: url)
             // prepare json data
             let json: [String: Any] = body
@@ -40,7 +56,7 @@ class LoginViewController: UIViewController {
                         }
                         if (response.statusCode == 200) {
                             DispatchQueue.main.async {
-                                 self.performSegue(withIdentifier: "loginSegue", sender: self)
+                                 self.performSegue(withIdentifier: "signUpSegue", sender: self)
                             }
                         }
                     }
@@ -49,14 +65,6 @@ class LoginViewController: UIViewController {
             task.resume()
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
     /*
     // MARK: - Navigation
 
