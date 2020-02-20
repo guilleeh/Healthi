@@ -15,7 +15,34 @@ class LoginViewController: UIViewController {
     
     @IBAction func onLogin(_ sender: Any) {
         if(emailField.text != "" && passwordField.text != "") {
-            performSegue(withIdentifier: "loginSegue", sender: nil)
+            
+            let body: [String: Any] = ["email": emailField.text, "password": passwordField.text]
+            
+            let url = URL(string: "http://localhost:5000/api/auth/login")!
+            var request = URLRequest(url: url)
+            // prepare json data
+            let json: [String: Any] = body
+
+            let jsonData = try? JSONSerialization.data(withJSONObject: json)
+            request.httpMethod = "POST"
+            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+            request.addValue("application/json", forHTTPHeaderField: "Accept")
+            request.httpBody = jsonData
+            
+            let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+                if let error = error {
+                    print("error: \(error)")
+                } else {
+                    if let response = response as? HTTPURLResponse {
+                        print("statusCode: \(response.statusCode)")
+                        print("data: \(response)")
+                        DispatchQueue.main.async {
+                             self.performSegue(withIdentifier: "loginSegue", sender: self)
+                        }
+                    }
+                }
+            }
+            task.resume()
         }
     }
     
