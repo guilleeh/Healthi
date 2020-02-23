@@ -3,17 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A3457FDEF824E4D1A5435147 /* Pods_HealthieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07152562AAB93CFD2CA1F90 /* Pods_HealthieApp.framework */; };
 		BB45B72323FC70A4002FCE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B72223FC70A4002FCE9C /* AppDelegate.swift */; };
 		BB45B72523FC70A4002FCE9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B72423FC70A4002FCE9C /* SceneDelegate.swift */; };
-		BB45B72723FC70A4002FCE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B72623FC70A4002FCE9C /* ViewController.swift */; };
 		BB45B72A23FC70A4002FCE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45B72823FC70A4002FCE9C /* Main.storyboard */; };
 		BB45B72C23FC70A5002FCE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB45B72B23FC70A5002FCE9C /* Assets.xcassets */; };
 		BB45B72F23FC70A5002FCE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45B72D23FC70A5002FCE9C /* LaunchScreen.storyboard */; };
+		BB45B73723FC7B52002FCE9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B73623FC7B52002FCE9C /* LoginViewController.swift */; };
+		BB6D708223FF13B600998B2B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D708123FF13B600998B2B /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		BB45B71F23FC70A4002FCE9C /* HealthieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB45B72223FC70A4002FCE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB45B72423FC70A4002FCE9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB45B72623FC70A4002FCE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB45B72923FC70A4002FCE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB45B72B23FC70A5002FCE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB45B72E23FC70A5002FCE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB45B73023FC70A5002FCE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB45B73623FC7B52002FCE9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB6D708123FF13B600998B2B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DBE01E735A2E19E636AF28E7 /* Pods-HealthieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthieApp.release.xcconfig"; path = "Target Support Files/Pods-HealthieApp/Pods-HealthieApp.release.xcconfig"; sourceTree = "<group>"; };
 		F07152562AAB93CFD2CA1F90 /* Pods_HealthieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,8 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				BB45B72223FC70A4002FCE9C /* AppDelegate.swift */,
+				BB45B73623FC7B52002FCE9C /* LoginViewController.swift */,
+				BB6D708123FF13B600998B2B /* SignUpViewController.swift */,
 				BB45B72423FC70A4002FCE9C /* SceneDelegate.swift */,
-				BB45B72623FC70A4002FCE9C /* ViewController.swift */,
 				BB45B72823FC70A4002FCE9C /* Main.storyboard */,
 				BB45B72B23FC70A5002FCE9C /* Assets.xcassets */,
 				BB45B72D23FC70A5002FCE9C /* LaunchScreen.storyboard */,
@@ -88,7 +91,6 @@
 				AC26070BA61A2C582BABB6DF /* Pods-HealthieApp.debug.xcconfig */,
 				DBE01E735A2E19E636AF28E7 /* Pods-HealthieApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,8 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB45B72723FC70A4002FCE9C /* ViewController.swift in Sources */,
+				BB45B73723FC7B52002FCE9C /* LoginViewController.swift in Sources */,
 				BB45B72323FC70A4002FCE9C /* AppDelegate.swift in Sources */,
+				BB6D708223FF13B600998B2B /* SignUpViewController.swift in Sources */,
 				BB45B72523FC70A4002FCE9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hernandezguillermo.HealthieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hernandezguillermo.HealthieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
