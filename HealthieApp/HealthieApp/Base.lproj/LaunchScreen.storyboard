@@ -15,12 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="8cx-zW-oBv">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="8cx-zW-oBv">
                                 <rect key="frame" x="107" y="348" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8cx-zW-oBv" secondAttribute="trailing" constant="107" id="2Gs-jr-Vkd"/>
+                            <constraint firstItem="8cx-zW-oBv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="EvN-wz-Cx4"/>
+                            <constraint firstItem="8cx-zW-oBv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="304" id="nhg-EU-GPU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8cx-zW-oBv" secondAttribute="bottom" constant="314" id="uaZ-PJ-YV0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -30,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch_image" width="200" height="200"/>
+        <image name="app_logo" width="200" height="200"/>
     </resources>
 </document>
