@@ -15,6 +15,7 @@ flask-bcrypt = "*"
 flask-jwt-extended = "*"
 flask-dotenv = "*"
 pushjack = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
