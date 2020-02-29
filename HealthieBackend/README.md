@@ -16,6 +16,9 @@ pipenv shell
 python app.py
 
 
+### Deploying to Heroku (from repo root)
+git subtree push --prefix HealthieBackend/ heroku master 
+
 ### Deploying on GAE
 gcloud app deploy && gcloud app logs tail -s default
 
