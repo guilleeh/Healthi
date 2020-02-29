@@ -10,7 +10,14 @@ class User(db.Document):
     age = db.IntField(min_value=14, max_value=99, required=True)
     height = db.IntField(min_value=1, max_value=250, required=True) # centimeters
     weight = db.IntField(min_value=50, max_value=500, required=True) # lbs
-    # objectives = TODO
+    
+    # TODO: 
+    # objectives 
+    # dietLabels
+    # healthLabels
+    # allergies (cautions)
+
+
 
     def hash_password(self):
         self.password = generate_password_hash(self.password).decode('utf8')
