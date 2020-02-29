@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-pymongo = "*"
+pymongo = {extras = ["srv"],version = "*"}
 mongoengine = "*"
 flask-mongoengine = "*"
 flask-restful = "*"
@@ -15,6 +15,7 @@ flask-bcrypt = "*"
 flask-jwt-extended = "*"
 flask-dotenv = "*"
 pushjack = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
