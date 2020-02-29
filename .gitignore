@@ -2,3 +2,5 @@ Healthie/Healthie.xcodeproj/project.xcworkspace/xcuserdata/Memo.xcuserdatad/User
 HealthieBackend/.vscode
 HealthieBackend/.edamamkeys
 HealthieBackend/.DS_Store
+HealthieBackend/recipe_collection.json
+*.pyc
