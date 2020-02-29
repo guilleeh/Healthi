@@ -16,5 +16,17 @@ pipenv shell
 python app.py
 
 
+### Deploying on GAE
+gcloud app deploy && gcloud app logs tail -s default
+
+### Recipe Search API
+https://developer.edamam.com/edamam-docs-recipe-api
+
 ## Reverse engineered instacart API
 https://github.com/kleinjm/instacart_api
+
+
+## Other interesting links
+https://github.com/openfoodfacts/openfoodfacts-ai
+http://www.iaeng.org/publication/WCECS2018/WCECS2018_pp349-356.pdf
+http://cs229.stanford.edu/proj2013/SawantPai-YelpFoodRecommendationSystem.pdf

@@ -1,4 +1,9 @@
 Healthie/Healthie.xcodeproj/project.xcworkspace/xcuserdata/Memo.xcuserdatad/UserInterfaceState.xcuserstate
 HealthieBackend/.vscode
 HealthieBackend/.edamamkeys
-HealthieBackend/.DS_Store
+HealthieBackend/.ipynb_checkpoints/*
+**__pycache__
+**.pyc
+*.DS_Store
+Pipfile*
+HealthieBackend/recipe_collection.json
