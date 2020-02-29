@@ -3,8 +3,7 @@ HealthieBackend/.vscode
 HealthieBackend/.edamamkeys
 HealthieBackend/.ipynb_checkpoints/*
 **__pycache__
-*.pyc
+**.pyc
 *.DS_Store
-HealthieBackend/.DS_Store
 Pipfile*
 HealthieBackend/recipe_collection.json

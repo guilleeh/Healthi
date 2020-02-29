@@ -10,7 +10,7 @@ from resources.errors import errors
 
 
 app = Flask(__name__)
-app.config.from_envvar('ENV_FILE_LOCATION')
+app.config.from_json('config.json')
 
 api = Api(app, errors=errors)
 bcrypt = Bcrypt(app)
