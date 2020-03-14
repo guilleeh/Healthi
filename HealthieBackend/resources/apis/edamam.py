@@ -20,11 +20,17 @@ def recipe_search():
         hits = json_object["hits"]
 
         for i in range(len(hits)):
+            uri = json_object["hits"][i]["recipe"]["uri"]
             recipe_name = json_object["hits"][i]["recipe"]["label"]
-            ingredients_list = json_object["hits"][i]["recipe"]["ingredientLines"]
+            image = json_object["hits"][i]["recipe"]["image"]
+            source = json_object["hits"][i]["recipe"]["source"]
+            url = json_object["hits"][i]["recipe"]["url"]
+            diet_labels = json_object["hits"][i]["recipe"]["dietLabels"]
             health_labels = json_object["hits"][i]["recipe"]["healthLabels"]
-            source_url = json_object["hits"][i]["recipe"]["url"]
+            cautions = json_object["hits"][i]["recipe"]["cautions"]
+            ingredients_list = json_object["hits"][i]["recipe"]["ingredientLines"]
             calories = json_object["hits"][i]["recipe"]["calories"]
+            total_weight = json_object["hits"][i]["recipe"]["totalWeight"]
             total_time = json_object["hits"][i]["recipe"]["totalTime"]
             total_nutrients = json_object["hits"][i]["recipe"]["totalNutrients"]
             total_daily = json_object["hits"][i]["recipe"]["totalDaily"]
@@ -35,7 +41,7 @@ def recipe_search():
             print("recipe name:: ", recipe_name)
             print("ingredients list:: ", ingredients_list)
             print("health labels:: ", health_labels)
-            print("source url:: ", source_url)
+            print("url:: ", url)
             print("calories:: ", calories)
             print("total_time:: ", total_time)
             print("total_nutrients:: ", total_nutrients)
@@ -44,12 +50,19 @@ def recipe_search():
             print("-------------------------------------------------------------")
 
             recipe = {
+                "uri": uri,
                 "recipe_name": recipe_name,
-                "ingredients": ingredients_list,
+                "image": image,
+                "source": source,
+                "url": url,
+                "diet_labels": diet_labels,
                 "health_labels": health_labels,
-                "source_url": source_url,
+                "cautions": cautions,
+                "ingredients": ingredients_list,
                 "calories": calories,
+                "total_weight": total_weight,
                 "total_time": total_time,
+                "total_nutrients": total_nutrients,
                 "total_daily": total_daily,
                 "digest": digest
             }

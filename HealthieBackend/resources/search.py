@@ -11,8 +11,24 @@ from resources.errors import SchemaValidationError, UnauthorizedError, InternalS
 class SearchApi(Resource):
     def get(self):
         try:
-            body = request.get_json()
+            print("Inside SearchAPI get request")
 
-
+            # body = request.get_json()
+            # recipe = Recipe(**body)
+            # print(recipe.recipe_name)
+            #
+            #
+            #     user.hash_password()
+            #     user.save()
+            #     id = user.id
+            #
+            #     return {'id': str(id)}, 200
+            #
+            # except FieldDoesNotExist:
+            #     raise SchemaValidationError
+            # except NotUniqueError:
+            #     raise EmailAlreadyExistsError
+            # except Exception as e:
+            #     raise InternalServerError
         except Exception as e:
             raise InternalServerError

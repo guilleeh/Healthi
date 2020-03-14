@@ -8,6 +8,7 @@ from flask_restful import Resource
 from mongoengine.errors import FieldDoesNotExist, NotUniqueError, DoesNotExist
 from resources.errors import SchemaValidationError, EmailAlreadyExistsError, UnauthorizedError, InternalServerError
 
+
 class SignupApi(Resource):
     def post(self):
         try:
@@ -25,6 +26,7 @@ class SignupApi(Resource):
             raise EmailAlreadyExistsError
         except Exception as e:
             raise InternalServerError
+
 
 class LoginApi(Resource):
     def post(self):

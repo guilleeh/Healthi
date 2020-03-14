@@ -13,7 +13,8 @@ def initalize_mongodb_client():
     """
     print("Creating client... ")
     # Assigns localhost:27017 to be the host for the Mongodb client
-    local_db_client = pymongo.MongoClient("mongodb://localhost:27017/")
+    # local_db_client = pymongo.MongoClient("mongodb://localhost:27017/")
+    local_db_client = pymongo.MongoClient("mongodb+srv://todos:p9GtSWfloDl4XhDo@cluster0-me2k6.gcp.mongodb.net/test?retryWrites=true&w=majority")
 
     # creates search database
     print("Creating database")
@@ -29,7 +30,7 @@ def initalize_mongodb_client():
 
 
 def recipe_search():
-    food_search = "spinach"
+    food_search = "rice"
     api_url = "{}?q={}&app_id={}&app_key={}&from=0&to=100".format(api_url_base, food_search, app_id, app_key)
     print(api_url)
 
@@ -41,35 +42,34 @@ def recipe_search():
         hits = json_object["hits"]
 
         for i in range(len(hits)):
+            uri = json_object["hits"][i]["recipe"]["uri"]
             recipe_name = json_object["hits"][i]["recipe"]["label"]
-            ingredients_list = json_object["hits"][i]["recipe"]["ingredientLines"]
+            image = json_object["hits"][i]["recipe"]["image"]
+            source = json_object["hits"][i]["recipe"]["source"]
+            url = json_object["hits"][i]["recipe"]["url"]
+            diet_labels = json_object["hits"][i]["recipe"]["dietLabels"]
             health_labels = json_object["hits"][i]["recipe"]["healthLabels"]
-            source_url = json_object["hits"][i]["recipe"]["url"]
+            cautions = json_object["hits"][i]["recipe"]["cautions"]
+            ingredients_list = json_object["hits"][i]["recipe"]["ingredientLines"]
             calories = json_object["hits"][i]["recipe"]["calories"]
+            total_weight = json_object["hits"][i]["recipe"]["totalWeight"]
             total_time = json_object["hits"][i]["recipe"]["totalTime"]
             total_nutrients = json_object["hits"][i]["recipe"]["totalNutrients"]
             total_daily = json_object["hits"][i]["recipe"]["totalDaily"]
             digest = json_object["hits"][i]["recipe"]["digest"]
 
-            print("Recipe Search API Call Request Info")
-            print("-------------------------------------------------------------")
-            print("recipe name:: ", recipe_name)
-            print("ingredients list:: ", ingredients_list)
-            print("health labels:: ", health_labels)
-            print("source url:: ", source_url)
-            print("calories:: ", calories)
-            print("total_time:: ", total_time)
-            print("total_nutrients:: ", total_nutrients)
-            print("total_daily:: ", total_daily)
-            print("digest:: ", digest)
-            print("-------------------------------------------------------------")
-
             recipe = {
+                "uri": uri,
                 "recipe_name": recipe_name,
-                "ingredients": ingredients_list,
+                "image": image,
+                "source": source,
+                "url": url,
+                "diet_labels": diet_labels,
                 "health_labels": health_labels,
-                "source_url": source_url,
+                "cautions": cautions,
+                "ingredients": ingredients_list,
                 "calories": calories,
+                "total_weight": total_weight,
                 "total_time": total_time,
                 # "total_nutrients": total_nutrients,
                 "total_daily": total_daily,
@@ -86,8 +86,23 @@ def recipe_search():
         return None
 
 
+def insert_to_collection(recipe_list, recipe_collection):
+
+    for recipe in recipe_list:
+        print(type(recipe))
+        # digest = recipe["digest"][1]["sub"][3]["tag"]
+        # print(digest)
+        # if digest == "SUGAR.added":
+        #     digest.replace(digest, "SUGAR_added")
+        #     recipe["digest"][1]["sub"][3]["tag"].replace(recipe["digest"][1]["sub"][3]["tag"], digest)
+        #     print(recipe)
+        recipe_collection.insert_one(recipe)
+        # recipe_collection.insert(recipe, check_keys=False)
+
+
+
 recipe_collection = initalize_mongodb_client()
 recipe_list = recipe_search()
 insert_to_collection(recipe_list, recipe_collection)
-view_content_collection(recipe_collection)
+# view_content_collection(recipe_collection)
 

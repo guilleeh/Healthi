@@ -3,6 +3,7 @@
 from .db import db
 from flask_bcrypt import generate_password_hash, check_password_hash
 
+
 class User(db.Document):
     email = db.EmailField(required=True, unique=True)
     password = db.StringField(required=True, min_length=6)
@@ -26,19 +27,19 @@ class User(db.Document):
 
 class Recipe(db.Document):
     uri = db.URLField(unique=True)
-    label = db.StringField(required=True)
+    recipe_name = db.StringField(required=True)
     # image = TODO download image
     image = db.URLField()
     source = db.StringField(required=True)
     url = db.URLField(required=True, unique=True)
-    dietLabels = db.ListField()
-    healthLabels = db.ListField()
+    diet_labels = db.ListField()
+    health_labels = db.ListField()
     cautions = db.ListField()
-    ingredientLines = db.ListField()
+    ingredients = db.ListField()
     calories = db.FloatField()
-    totalWeight = db.FloatField()
-    totalTime = db.FloatField()
-    totalNutrients = db.DictField()
-    totalDaily = db.DictField()
+    total_weight = db.FloatField()
+    total_time = db.FloatField()
+    # total_nutrients = db.DictField()
+    total_daily = db.DictField()
     digest = db.ListField()
 
