@@ -7,3 +7,7 @@ HealthieBackend/.ipynb_checkpoints/*
 *.DS_Store
 Pipfile*
 HealthieBackend/recipe_collection.json
+.DS_Store
+HealthieBackend/recipe_export.csv
+HealthieBackend/recipe_export.json
+.DS_Store
