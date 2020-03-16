@@ -6,4 +6,4 @@ HealthieBackend/.ipynb_checkpoints/*
 **.pyc
 *.DS_Store
 Pipfile*
-HealthieBackend/recipe_collection.json
+HealthieBackend/local_config.json
