@@ -19,6 +19,7 @@ class User: NSObject {
     var dietLabels: [String?] = []
     var healthLabels: [String?] = []
     var cautionLabels: [String?] = []
+    var token: String?
     
     func repr() {        // type method
 //        print(self.name!)

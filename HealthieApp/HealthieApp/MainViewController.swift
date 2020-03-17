@@ -37,6 +37,10 @@ class MainViewController: UIViewController{
         
         kolodaView.dataSource = self
         kolodaView.delegate = self
+        
+        let defaults = UserDefaults.standard
+        let name = defaults.string(forKey: "token")
+        print(name)
     }
 }
 

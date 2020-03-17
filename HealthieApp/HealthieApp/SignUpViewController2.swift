@@ -50,54 +50,6 @@ class SignUpViewController2: UIViewController, UITableViewDataSource, UITableVie
         return cell
     }
     
-    
-    @IBAction func onRegister(_ sender: Any) {
-//        let body: [String: Any] = [    "name": self.user?.name! ?? "",
-//                                       "email": self.user?.email! ?? "",
-//                                       "password": self.user?.password! ?? "",
-//                                       "age": Int(self.user!.age!) ?? 14,
-//                                       "height": Int((self.user!.height as! NSString).doubleValue * 30.48),
-//                                       "weight": Int((self.user!.weight!)) ?? 50]
-//        print(body)
-//
-//            let url = URL(string: "http://localhost:8080/api/auth/signup")!
-//            var request = URLRequest(url: url)
-//            // prepare json data
-//            let json: [String: Any] = body
-//
-//            let jsonData = try? JSONSerialization.data(withJSONObject: json)
-//            request.httpMethod = "POST"
-//            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//            request.addValue("application/json", forHTTPHeaderField: "Accept")
-//            request.httpBody = jsonData
-//
-//            let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-//                if let error = error {
-//                    print("error: \(error)")
-//                } else {
-//                    if let response = response as? HTTPURLResponse {
-//                        print("statusCode: \(response.statusCode)")
-//                        if let data = data, let dataString = String(data: data, encoding: .utf8) {
-//                            print("data: \(dataString)")
-//                        }
-//                        if (response.statusCode == 200) {
-//                            DispatchQueue.main.async {
-//                                 self.performSegue(withIdentifier: "doneRegisterSegue", sender: self)
-//                            }
-//                        }
-//                    }
-//                }
-//            }
-//            task.resume()
-        let values = optionsTableView.indexPathsForSelectedRows!
-        var selections:[String] = [String]()
-        for val in values {
-            let selection = String(options[val[1]])
-            selections.append(selection)
-        }
-        user?.dietLabels = selections   
-        }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let values = optionsTableView.indexPathsForSelectedRows ?? []
         var selections:[String] = [String]()
