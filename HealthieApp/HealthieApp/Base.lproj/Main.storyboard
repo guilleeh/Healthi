@@ -10,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="HealthieApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoginViewController" customModule="HealthieApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="102.89855072463769" y="93.75"/>
+            <point key="canvasLocation" x="-217" y="-698"/>
         </scene>
         <!--Hello-->
         <scene sceneID="rL4-uu-vyU">
@@ -288,7 +288,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOb-z1-1mS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1274" y="836"/>
+            <point key="canvasLocation" x="1370" y="836"/>
         </scene>
         <!--Sign Up View Controller4-->
         <scene sceneID="h6v-Ci-0gd">
@@ -319,9 +319,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fN8-Vr-IiD">
-                                <rect key="frame" x="355" y="832" width="39" height="30"/>
+                                <rect key="frame" x="350" y="832" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submit:" destination="Yc0-ap-sp4" eventType="touchUpInside" id="mvB-nz-gol"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -355,7 +358,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oNU-IP-f0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683" y="94"/>
+            <point key="canvasLocation" x="1038" y="94"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="aI7-EL-5MI">
@@ -384,6 +387,9 @@
                                 <rect key="frame" x="181" y="801" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log out"/>
+                                <connections>
+                                    <action selector="logout:" destination="K4O-Is-VP8" eventType="touchUpInside" id="mbF-Vq-KGb"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OR8-ML-ie7" customClass="KolodaView" customModule="Koloda">
                                 <rect key="frame" x="20" y="170" width="374" height="556"/>
@@ -405,6 +411,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="kolodaView" destination="OR8-ML-ie7" id="KJh-pN-si4"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="logoutSegue" id="PTA-lh-eAi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JIg-Yh-YgY" sceneMemberID="firstResponder"/>
@@ -418,6 +425,6 @@
         <image name="gear" width="160" height="160"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AvM-Z4-rup"/>
+        <segue reference="ezy-Ix-Lxt"/>
     </inferredMetricsTieBreakers>
 </document>

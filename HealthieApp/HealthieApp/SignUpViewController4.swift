@@ -35,6 +35,10 @@ class SignUpViewController4: UIViewController, UITableViewDataSource, UITableVie
     @IBAction func back(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    @IBAction func submit(_ sender: Any) {
+        user?.repr()
+        self.performSegue(withIdentifier: "registerSegue", sender: nil)
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return options.count

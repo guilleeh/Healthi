@@ -14,6 +14,9 @@ class MainViewController: UIViewController{
     @IBOutlet var kolodaView: KolodaView!
     let images = ["burger", "coffee", "pizza", "salmon", "steak"]
     
+    @IBAction func logout(_ sender: Any) {
+        self.performSegue(withIdentifier: "logoutSegue", sender: nil)
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // Hide the Navigation Bar
