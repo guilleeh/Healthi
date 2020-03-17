@@ -16,6 +16,7 @@
 		BB45B72C23FC70A5002FCE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB45B72B23FC70A5002FCE9C /* Assets.xcassets */; };
 		BB45B72F23FC70A5002FCE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45B72D23FC70A5002FCE9C /* LaunchScreen.storyboard */; };
 		BB45B73723FC7B52002FCE9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B73623FC7B52002FCE9C /* LoginViewController.swift */; };
+		BB5CA9D724217F0500EF7726 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CA9D624217F0500EF7726 /* SettingsViewController.swift */; };
 		BB6D708223FF13B600998B2B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D708123FF13B600998B2B /* SignUpViewController.swift */; };
 		BB932F1D241AE54700AF096E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F1C241AE54700AF096E /* User.swift */; };
 		BB932F1F241AE60F00AF096E /* SignUpViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */; };
@@ -34,6 +35,7 @@
 		BB45B72E23FC70A5002FCE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB45B73023FC70A5002FCE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB45B73623FC7B52002FCE9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB5CA9D624217F0500EF7726 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BB6D708123FF13B600998B2B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BB932F1C241AE54700AF096E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController2.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				BB932F1C241AE54700AF096E /* User.swift */,
 				BB45B72423FC70A4002FCE9C /* SceneDelegate.swift */,
 				BB45B72823FC70A4002FCE9C /* Main.storyboard */,
+				BB5CA9D624217F0500EF7726 /* SettingsViewController.swift */,
 				BB45B72B23FC70A5002FCE9C /* Assets.xcassets */,
 				BB45B72D23FC70A5002FCE9C /* LaunchScreen.storyboard */,
 				BB45B73023FC70A5002FCE9C /* Info.plist */,
@@ -227,6 +230,7 @@
 				BB932F21241B214B00AF096E /* MainViewController.swift in Sources */,
 				BB1F9EDD241DA2C4008E1124 /* SignUpViewController4.swift in Sources */,
 				BB45B73723FC7B52002FCE9C /* LoginViewController.swift in Sources */,
+				BB5CA9D724217F0500EF7726 /* SettingsViewController.swift in Sources */,
 				BB45B72323FC70A4002FCE9C /* AppDelegate.swift in Sources */,
 				BB6D708223FF13B600998B2B /* SignUpViewController.swift in Sources */,
 				BB932F1F241AE60F00AF096E /* SignUpViewController2.swift in Sources */,

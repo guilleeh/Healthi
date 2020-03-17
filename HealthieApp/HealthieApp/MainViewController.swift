@@ -14,8 +14,8 @@ class MainViewController: UIViewController{
     @IBOutlet var kolodaView: KolodaView!
     let images = ["burger", "coffee", "pizza", "salmon", "steak"]
     
-    @IBAction func logout(_ sender: Any) {
-        self.performSegue(withIdentifier: "logoutSegue", sender: nil)
+    @IBAction func settings(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "settingsSegue", sender: nil)
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
