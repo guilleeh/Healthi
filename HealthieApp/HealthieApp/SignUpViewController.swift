@@ -13,9 +13,9 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var fullNameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-    @IBOutlet weak var confirmPasswordField: UITextField!
     @IBOutlet weak var heightPicker: UIPickerView!
     @IBOutlet weak var ageField: UITextField!
+    @IBOutlet var gender: UISegmentedControl!
     @IBOutlet weak var weightField: UITextField!
     @IBOutlet weak var lifestylePicker: UIPickerView!
     
@@ -41,7 +41,7 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         
         pickerHeightData = ["4.0", "4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7", "4.8", "4.9", "4.1", "4.11", "5.0", "5.1", "5.2", "5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.1", "5.11", "6.0"]
         
-        lifestyleData = ["Sedentary", "Lightly Active", "Moderately Active", "Very Active", "Extra Active"]
+        lifestyleData = ["Lightly Active", "Moderately Active", "Very Active"]
         // Do any additional setup after loading the view.
     }
     
@@ -83,13 +83,16 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         self.user?.weight = self.weightField.text!
         self.user?.lifestyle = selectedLifestyle
         self.user?.height = selectedHeight
+        self.user?.gender = self.gender.titleForSegment(at: gender.selectedSegmentIndex)
+        self.user?.calculateCalories()
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         createUser()
         if segue.destination is SignUpViewController2 {
-            let stepTwoSignUp = segue.destination as! SignUpViewController2
-            stepTwoSignUp.user = self.user
+            let calorie = segue.destination as! CalorieViewController
+            calorie.user = self.user
         }
     }
 

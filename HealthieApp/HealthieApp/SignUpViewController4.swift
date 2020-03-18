@@ -40,6 +40,7 @@ class SignUpViewController4: UIViewController, UITableViewDataSource, UITableVie
                 let body: [String: Any] = [    "name": self.user?.name! ?? "",
                                                "email": self.user?.email! ?? "",
                                                "password": self.user?.password! ?? "",
+
                                                "age": Int(self.user!.age!) ?? 14,
                                                "height": Int((self.user!.height as! NSString).doubleValue * 30.48),
                                                "weight": Int((self.user!.weight!)) ?? 50]

@@ -17,6 +17,7 @@
 		BB45B72F23FC70A5002FCE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45B72D23FC70A5002FCE9C /* LaunchScreen.storyboard */; };
 		BB45B73723FC7B52002FCE9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B73623FC7B52002FCE9C /* LoginViewController.swift */; };
 		BB5CA9D724217F0500EF7726 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CA9D624217F0500EF7726 /* SettingsViewController.swift */; };
+		BB5CA9D9242197E300EF7726 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CA9D8242197E200EF7726 /* CalorieViewController.swift */; };
 		BB6D708223FF13B600998B2B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D708123FF13B600998B2B /* SignUpViewController.swift */; };
 		BB932F1D241AE54700AF096E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F1C241AE54700AF096E /* User.swift */; };
 		BB932F1F241AE60F00AF096E /* SignUpViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */; };
@@ -36,6 +37,7 @@
 		BB45B73023FC70A5002FCE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB45B73623FC7B52002FCE9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB5CA9D624217F0500EF7726 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BB5CA9D8242197E200EF7726 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
 		BB6D708123FF13B600998B2B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BB932F1C241AE54700AF096E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController2.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				BB932F20241B214B00AF096E /* MainViewController.swift */,
 				BB45B73623FC7B52002FCE9C /* LoginViewController.swift */,
 				BB6D708123FF13B600998B2B /* SignUpViewController.swift */,
+				BB5CA9D8242197E200EF7726 /* CalorieViewController.swift */,
 				BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */,
 				BB1F9EDA241DA2AE008E1124 /* SignUpViewController3.swift */,
 				BB1F9EDC241DA2C4008E1124 /* SignUpViewController4.swift */,
@@ -236,6 +239,7 @@
 				BB932F1F241AE60F00AF096E /* SignUpViewController2.swift in Sources */,
 				BB932F1D241AE54700AF096E /* User.swift in Sources */,
 				BB1F9EDB241DA2AE008E1124 /* SignUpViewController3.swift in Sources */,
+				BB5CA9D9242197E300EF7726 /* CalorieViewController.swift in Sources */,
 				BB45B72523FC70A4002FCE9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

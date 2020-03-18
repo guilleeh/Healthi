@@ -40,7 +40,6 @@ class MainViewController: UIViewController{
         
         let defaults = UserDefaults.standard
         let name = defaults.string(forKey: "token")
-        print(name)
     }
 }
 
@@ -50,12 +49,20 @@ extension MainViewController: KolodaViewDelegate {
     koloda.reloadData()
   }
   
-  func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
-    let alert = UIAlertController(title: "Congratulation!", message: "Now you're \(images[index])", preferredStyle: .alert)
-    alert.addAction(UIAlertAction(title: "OK", style: .default))
-    self.present(alert, animated: true)
+    func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
+//    let alert = UIAlertController(title: "Congratulation!", message: "Now you're \(images[index])", preferredStyle: .alert)
+//    alert.addAction(UIAlertAction(title: "OK", style: .default))
+//    self.present(alert, animated: true)
+        if direction == SwipeResultDirection.right {
+             // implement your functions or whatever here
+            print("user swiped right")
+        } else if direction == .left {
+        // implement your functions or whatever here
+            print("user swiped left")
+        }
   }
 }
+
 
 extension MainViewController: KolodaViewDataSource {
   

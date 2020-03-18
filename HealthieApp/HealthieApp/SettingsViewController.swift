@@ -16,7 +16,6 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
     @IBAction func logout(_ sender: Any) {
         self.performSegue(withIdentifier: "logoutSegue", sender: nil)
     }
