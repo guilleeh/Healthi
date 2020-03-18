@@ -1,0 +1,68 @@
+{
+    "SHPE-TEXAS": {
+        "email": "shpe-texas@uci.edu",
+        "password": "Password45",
+        "name": "SHPE-TEXAS",
+        "age": 23,
+        "height": 6,
+        "weight": 200,
+        "dietLabels": [
+            "low-carb",
+            "low-fat"
+        ],
+        "healthLabels": [
+            "alcohol-free"
+        ],
+        "cautions": [
+            "gluten",
+            "shellfish"
+        ],
+        "objectives": [
+            "gain muscle"
+        ]
+    },
+    "chicago": {
+        "email": "chicago@uci.edu",
+        "password": "Password45",
+        "name": "chicago",
+        "age": 23,
+        "height": 6,
+        "weight": 200,
+        "dietLabels": [
+            "low-carb",
+            "low-fat"
+        ],
+        "healthLabels": [
+            "alcohol-free"
+        ],
+        "cautions": [
+            "gluten",
+            "shellfish"
+        ],
+        "objectives": [
+            "gain muscle"
+        ]
+    },
+    "mexicali": {
+        "email": "mexicali@uci.edu",
+        "password": "Password45",
+        "name": "mexicali",
+        "age": 23,
+        "height": 6,
+        "weight": 200,
+        "dietLabels": [
+            "low-carb",
+            "low-fat"
+        ],
+        "healthLabels": [
+            "alcohol-free"
+        ],
+        "cautions": [
+            "gluten",
+            "shellfish"
+        ],
+        "objectives": [
+            "gain muscle"
+        ]
+    }
+}
