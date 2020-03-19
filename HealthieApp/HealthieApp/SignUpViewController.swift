@@ -16,6 +16,7 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     @IBOutlet weak var heightPicker: UIPickerView!
     @IBOutlet weak var ageField: UITextField!
     @IBOutlet var gender: UISegmentedControl!
+    @IBOutlet var goal: UISegmentedControl!
     @IBOutlet weak var weightField: UITextField!
     @IBOutlet weak var lifestylePicker: UIPickerView!
     
@@ -84,6 +85,7 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         self.user?.lifestyle = selectedLifestyle
         self.user?.height = selectedHeight
         self.user?.gender = self.gender.titleForSegment(at: gender.selectedSegmentIndex)
+        self.user?.goal = [self.goal.titleForSegment(at: gender.selectedSegmentIndex)]
         self.user?.calculateCalories()
         do {
             sleep(1

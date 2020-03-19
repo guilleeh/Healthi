@@ -22,6 +22,7 @@ class User: NSObject {
     var gender: String?
     var lifestyle: String?
     var height: String?
+    var goal: [String?] = []
     var dietLabels: [String?] = []
     var healthLabels: [String?] = []
     var cautionLabels: [String?] = []
@@ -29,17 +30,18 @@ class User: NSObject {
     var token: String?
     
     func repr() {        // type method
-//        print(self.name!)
-//        print(self.email!)
-//        print(self.password!)
-//        print(self.age!)
-//        print(self.weight!)
-//        print(self.lifestyle!)
-//        print(self.height!)
+        print(self.name!)
+        print(self.email!)
+        print(self.password!)
+        print(self.age!)
+        print(self.weight!)
+        print(self.lifestyle!)
+        print(self.height!)
         print(gender)
         print(self.dietLabels)
         print(self.healthLabels)
         print(self.cautionLabels)
+        print(self.goal)
     }
     
     func calculateCalories() {

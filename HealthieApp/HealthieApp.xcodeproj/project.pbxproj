@@ -24,6 +24,7 @@
 		BB932F21241B214B00AF096E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F20241B214B00AF096E /* MainViewController.swift */; };
 		BBCEBC1B2422FECC007AC3D1 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEBC1A2422FECC007AC3D1 /* Food.swift */; };
 		BBCEBC1D24230AD9007AC3D1 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEBC1C24230AD9007AC3D1 /* CardDetailViewController.swift */; };
+		BBCEBC1F2423216C007AC3D1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEBC1E2423216B007AC3D1 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BB932F20241B214B00AF096E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BBCEBC1A2422FECC007AC3D1 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		BBCEBC1C24230AD9007AC3D1 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		BBCEBC1E2423216B007AC3D1 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		DBE01E735A2E19E636AF28E7 /* Pods-HealthieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthieApp.release.xcconfig"; path = "Target Support Files/Pods-HealthieApp/Pods-HealthieApp.release.xcconfig"; sourceTree = "<group>"; };
 		F07152562AAB93CFD2CA1F90 /* Pods_HealthieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				BB45B72223FC70A4002FCE9C /* AppDelegate.swift */,
 				BB932F20241B214B00AF096E /* MainViewController.swift */,
 				BB45B73623FC7B52002FCE9C /* LoginViewController.swift */,
+				BBCEBC1E2423216B007AC3D1 /* Network.swift */,
 				BB6D708123FF13B600998B2B /* SignUpViewController.swift */,
 				BB5CA9D8242197E200EF7726 /* CalorieViewController.swift */,
 				BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */,
@@ -248,6 +251,7 @@
 				BB932F1D241AE54700AF096E /* User.swift in Sources */,
 				BB1F9EDB241DA2AE008E1124 /* SignUpViewController3.swift in Sources */,
 				BB5CA9D9242197E300EF7726 /* CalorieViewController.swift in Sources */,
+				BBCEBC1F2423216C007AC3D1 /* Network.swift in Sources */,
 				BB45B72523FC70A4002FCE9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
