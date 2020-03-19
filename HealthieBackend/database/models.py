@@ -14,15 +14,14 @@ class User(db.Document):
     dietLabels = db.ListField(db.StringField(), required=True)
     healthLabels = db.ListField(db.StringField(), required=True)
     cautions = db.ListField(db.StringField(), required=True) # cautions = allergies
-    objectives = db.ListField(db.StringField(), required=True)
+    objective = db.StringField(required=True)
+    recently_liked = db.ListField(db.StringField(), required=False)
 
     def hash_password(self):
         self.password = generate_password_hash(self.password).decode('utf8')
 
     def check_password(self, password):
         return check_password_hash(self.password, password)
-
-
 
 
 class Recipe(db.Document):
@@ -42,6 +41,4 @@ class Recipe(db.Document):
     totalNutrients = db.DictField()
     totalDaily = db.DictField()
     digest = db.ListField()
-    
-    
-
+    representation = db.BinaryField()

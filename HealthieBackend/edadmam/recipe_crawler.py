@@ -17,9 +17,10 @@ api_url_base = "https://api.edamam.com/search"
 #     'middle eastern', 'european', 'shrimp', 'brocoli', 'tomato', 'spinach', \
 #     'corn', 'beans', 'coffee', 'kebab', 'spaghetti', 'torta', 'omelette']
 
-food_search = []
+food_search = ['omelette', 'pancakes', 'waffles', 'french toast']
 
-with open('/Users/ed/Development/Healthi/HealthieBackend/recipe_collection.json', 'r') as f:
+
+with open('/Users/ed/Development/Healthi/HealthieBackend/resources/data/recipe_collection.json', 'r') as f:
     recipes = json.load(f)
 
 def recipe_search(query:str):
@@ -32,10 +33,11 @@ def recipe_search(query:str):
         for hit in json_object['hits']:
             recipe = hit['recipe']
             label = recipe.pop('uri')
+            recipe['food_type'] = 0
             recipes[label] = recipe
 
 for query in food_search:
     recipe_search(query)
 
-with open('/Users/ed/Development/Healthi/HealthieBackend/recipe_collection.json', 'w') as fp:
+with open('/Users/ed/Development/Healthi/HealthieBackend/resources/data/recipe_collection.json', 'w') as fp:
     json.dump(recipes, fp)
