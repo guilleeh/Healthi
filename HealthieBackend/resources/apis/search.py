@@ -46,6 +46,8 @@ def initialize_es(app):
     elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
         if app.config['ELASTICSEARCH_URL'] else None
 
+def get_elastic_conn():
+    return elasticsearch
 
 class SearchApi(Resource):
 
@@ -68,8 +70,10 @@ class SearchApi(Resource):
                             "terms": { "healthLabels": user.healthLabels},
                             "terms": { "dietLabels": user.dietLabels}
                         },
-                        "filter": {
-                            "terms": { "cautions": user.cautions}
+                        "must_not": {
+                            "terms": { 
+                                "cautions": user.cautions
+                            }
                         }
                     }
                 }
