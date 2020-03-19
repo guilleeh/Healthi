@@ -7,6 +7,7 @@ from database.db import initialize_db
 from flask_restful import Api
 from resources.apis.routes import initialize_routes
 from resources.apis.errors import errors
+from elasticsearch import Elasticsearch
 
 
 app = Flask(__name__)
