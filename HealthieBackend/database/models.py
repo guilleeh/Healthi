@@ -25,8 +25,6 @@ class User(db.Document):
         return check_password_hash(self.password, password)
 
 
-
-
 class Recipe(db.Document):
     # uri = db.URLField(unique=True)
     label = db.StringField(required=True)
@@ -46,5 +44,3 @@ class Recipe(db.Document):
     digest = db.ListField()
     representation = db.BinaryField()
     
-    
-
