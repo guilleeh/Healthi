@@ -40,11 +40,13 @@ print("HEALTH LABELS:: ", health_labels)
 print("CAUTIONS:: ", cautions)
 print("OBJECTIVES:: ", objectives)
 
+
 elasticsearch = None
 def initialize_es(app):
     global elasticsearch
     elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
         if app.config['ELASTICSEARCH_URL'] else None
+
 
 def get_elastic_conn():
     return elasticsearch
@@ -64,14 +66,15 @@ class SearchApi(Resource):
                 "query": {
                     "bool": {
                         "must": {
-                            "match": { "label": food_search }
+                            "match": {"label": food_search}
                         },
                         "should": {
-                            "terms": { "healthLabels": user.healthLabels},
-                            "terms": { "dietLabels": user.dietLabels}
-                        },
+                            "terms": {"healthLabels": user.healthLabels},
+                            "terms": {"dietLabels": user.dietLabels}
+                        }
+                        ,
                         "must_not": {
-                            "terms": { 
+                            "terms": {
                                 "cautions": user.cautions
                             }
                         }
@@ -90,3 +93,4 @@ class SearchApi(Resource):
 
         except Exception as e:
             raise InternalServerError
+

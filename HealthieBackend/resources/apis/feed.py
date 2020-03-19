@@ -23,32 +23,26 @@ class FeedApi(Resource):
             body = request.get_json()
             user_id = get_jwt_identity()
             user = User.objects.get(id=user_id)
-            user_rep = pickle.loads(user.representation).tolist()
+            # user_rep = pickle.loads(user.representation)
+            user_rep = user.representation
             user_id = get_jwt_identity()
             user = User.objects.get(id=user_id)
             print(user.cautions)
+            # user_rep_vector = [0.1, 0.2, 0.3]
 
             script_query = {
-                "script_score": {
-                    # "query": {
-                    #     "match_all": {
-                    #         "should": {
-                    #             "terms": { "healthLabels": user.healthLabels},
-                    #             "terms": { "dietLabels": user.dietLabels}
-                    #         },
-                    #         "filter": {
-                    #             "terms": { "cautions": user.cautions}
-                    #         }
-                    #     }
-                    # },
-                    "query": {"match_all": {}},
-                    "script": {
-                        "source": "cosineSimilarity(params.query_vector, 'vec_repr) + 1.0",
-                        "params": {"query_vector": user_rep}
+                "query": {
+                    "script_score": {
+                        "query": {"match_all": {}},
+                        "script": {
+                            "source": "cosineSimilarity(params.query_vector, 'vec_repr) + 1.0",
+                            # "source": "cosineSimilarity(params.query_vector, user_rep_vector) + 1.0",
+                            "params": {"query_vector": user_rep}
+                            # "params": {"query_vector": [0.1, 0.2, -0.3]}
                     }
                 }
             }
-
+            }
             res = get_elastic_conn().search(index='recipe_index', body=json.dumps(script_query), request_timeout=60)
 
             recipes_list = list()
