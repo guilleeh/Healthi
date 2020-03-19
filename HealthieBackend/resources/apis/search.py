@@ -1,20 +1,21 @@
 ## resources/search.py
 
 import datetime
-from flask import request
-from flask_jwt_extended import create_access_token
+from flask import request, current_app
+from flask_jwt_extended import jwt_required, get_jwt_identity
 from database.models import User, Recipe
 from flask_restful import Resource
 from resources.apis.errors import SchemaValidationError, UnauthorizedError, InternalServerError
-from flask import request
-import logging
-from elasticsearch import Elasticsearch
 from pprint import pprint
 import json
+from elasticsearch import Elasticsearch
+
+
 
 with open('./resources/data/user_collection.json', 'r') as fp:
     user_collection = json.load(fp)
 
+# print(user_collection)
 current_user = user_collection.get("SHPE-TEXAS")
 health_labels = list()
 diet_labels = list()
@@ -40,27 +41,44 @@ print("CAUTIONS:: ", cautions)
 print("OBJECTIVES:: ", objectives)
 
 
+elasticsearch = None
+def initialize_es(app):
+    global elasticsearch
+    elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
+        if app.config['ELASTICSEARCH_URL'] else None
+
+
 class SearchApi(Resource):
 
+    @jwt_required
     def get(self, food_search):
+        if not elasticsearch:
+            return []
         try:
-            es_object = self.connect_elastic_search()
+            user_id = get_jwt_identity()
+            user = User.objects.get(id=user_id)
+            print(user.cautions)
+
             search_object = {
                 "query": {
                     "bool": {
                         "must": {
-                            "match": {"label": food_search},
-                            "match": {"dietLabels": ["Low-Carb", "Low-Fat"]},
+                            "match": {"label": food_search}
+                        },
+                        "should": {
+                            "terms": {"healthLabels": user.healthLabels},
+                            "terms": {"dietLabels": user.dietLabels}
                         }
-                        # ,
-                        # "should": {
-                        #     "terms": {"dietLabels": ["Low-Carb", "Low-Fat"]}
-                        # }
+                        ,
+                        "must_not": {
+                            "terms": {
+                                "cautions": user.cautions
+                            }
+                        }
                     }
                 }
             }
-
-            res = self.search(es_object, 'recipe_index', json.dumps(search_object))
+            res = elasticsearch.search(index='recipe_index', body=json.dumps(search_object), request_timeout=60)
 
             recipes_list = list()
             for key, value in res["hits"].items():
@@ -73,66 +91,3 @@ class SearchApi(Resource):
         except Exception as e:
             raise InternalServerError
 
-    def connect_elastic_search(self):
-        print("Inside connect_elastic_search()")
-
-        _es = None
-        _es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
-
-        if _es.ping():
-            print('It has connected!')
-        else:
-            print('It could not connect!')
-
-        return _es
-
-    def create_index(self, es_object, index_name="recipe_index"):
-        print("Inside create_index()")
-
-        created = False
-
-        try:
-            if not es_object.indices.exists(index_name):
-                # Ignore 400 means to ignore "Index Already Exist" error.
-                es_object.indices.create(index=index_name, ignore=400)
-                print('Index has been created')
-                created = True
-
-            else:
-                print("Index has been created already")
-                created = False
-
-        except Exception as ex:
-            print("Error creating the index")
-            print(str(ex))
-
-        finally:
-            return created
-
-    def store_record(self, elastic_object, index_name, record):
-        print("Inside store_record()")
-
-        try:
-            outcome = elastic_object.index(index=index_name, doc_type='recipe_table', body=record, request_timeout=60)
-            print("Record Stored!")
-            return True
-
-        except Exception as ex:
-            print('Error in storing data')
-            print(str(ex))
-            return False
-
-    def search(self, es_object, index_name, search):
-        print("Inside search()")
-
-        res = es_object.search(index=index_name, body=search, request_timeout=60)
-        return res
-
-    def open_json_file(self):
-        print("Opening file")
-
-        with open('../../data/recipe_collection.json', 'r') as f:
-            result = json.load(f)
-        print("File has has been loaded")
-
-        return result

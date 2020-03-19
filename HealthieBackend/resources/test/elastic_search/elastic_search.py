@@ -19,8 +19,6 @@ def connect_elastic_search():
 def create_index(es_object, index_name="recipe_index"):
     print("Inside create_index()")
 
-    created = False
-
     # index settings
     settings = {
         "settings": {
@@ -93,7 +91,6 @@ def create_index(es_object, index_name="recipe_index"):
             es_object.indices.create(index=index_name, ignore=400)
             # es_object.indices.create(index=index_name, ignore=400, body=settings)
             print('Index has been created')
-            created = True
 
         else:
             print("Index has been created already")
@@ -105,7 +102,8 @@ def create_index(es_object, index_name="recipe_index"):
         print(str(ex))
 
     finally:
-        return created
+        return True
+
 
 
 def store_record(elastic_object, index_name, record):
