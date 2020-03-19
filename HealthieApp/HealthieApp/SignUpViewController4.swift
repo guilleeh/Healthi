@@ -27,7 +27,16 @@ class SignUpViewController4: UIViewController, UITableViewDataSource, UITableVie
         optionsTableView.allowsMultipleSelectionDuringEditing = true
         optionsTableView.setEditing(true, animated: false)
         
-        options = ["FODMAP", "Gluten", "Shellfish", "Sulfites", "Wheat"]
+        options = ["Eggs",
+                   "FODMAP",
+        "Gluten",
+        "Milk",
+        "Peanuts",
+        "Shellfish",
+        "Soy",
+        "Sulfites",
+        "Tree-Nuts",
+        "Wheat"]
         
         greetingLabel.text = "Caution Options"
     }

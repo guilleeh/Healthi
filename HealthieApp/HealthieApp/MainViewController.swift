@@ -15,6 +15,7 @@ class MainViewController: UIViewController, UISearchBarDelegate{
     
     @IBOutlet var kolodaView: KolodaView!
     var images: [Food] = []
+    var currentFood: Food?
     
     @IBAction func settings(_ sender: UIButton) {
         self.performSegue(withIdentifier: "settingsSegue", sender: nil)
@@ -37,6 +38,10 @@ class MainViewController: UIViewController, UISearchBarDelegate{
                             food.image = each["image"] as! String
                             food.label = each["label"] as! String
                             food.calories = each["calories"] as? NSNumber
+                            food.url = each["url"] as! String
+                            food.cautions = each["cautions"] as! [String?]
+                            food.dietLabels = each["dietLabels"] as! [String?]
+                            food.healthLabels = each["healthLabels"] as! [String?]
                             results.append(food)
                         }
                         self.images = results
@@ -50,10 +55,16 @@ class MainViewController: UIViewController, UISearchBarDelegate{
                     print(err)
                 }
             }
-
             task.resume()
             }
         searchBar.text = ""
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is CardDetailViewController {
+            let foodView = segue.destination as! CardDetailViewController
+            foodView.food = self.currentFood
+        }
     }
     
     
@@ -89,7 +100,21 @@ class MainViewController: UIViewController, UISearchBarDelegate{
 extension MainViewController: KolodaViewDelegate {
   func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
     koloda.reloadData()
+    
   }
+    
+//    func kolodaShouldApplyAppearAnimation(_ koloda: KolodaView) -> Bool {
+//        print("Tapped!")
+//        self.currentFood = images[koloda.currentCardIndex]
+////        self.performSegue(withIdentifier: "CardDetailSegue", sender: self)
+//        return true
+//    }
+    
+    func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
+            print("Tapped!")
+            self.currentFood = images[index]
+            self.performSegue(withIdentifier: "CardDetailSegue", sender: self)
+    }
   
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
         if direction == SwipeResultDirection.right {

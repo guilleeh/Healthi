@@ -26,7 +26,7 @@ class SignUpViewController2: UIViewController, UITableViewDataSource, UITableVie
         optionsTableView.allowsMultipleSelectionDuringEditing = true
         optionsTableView.setEditing(true, animated: false)
         
-        options = ["Low-Carb", "Low-Fat"]
+        options = ["Balanced", "High-Protein", "Low-Carb", "Low-Fat"]
 
         
         // Do any additional setup after loading the view.
