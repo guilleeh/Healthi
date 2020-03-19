@@ -14,8 +14,8 @@ class User(db.Document):
     dietLabels = db.ListField(db.StringField(), required=True)
     healthLabels = db.ListField(db.StringField(), required=True)
     cautions = db.ListField(db.StringField(), required=True) # cautions = allergies
-    objectives = db.ListField(db.StringField(), required=True)
-    representation = db.ListField(db.StringField(), required=False)
+    objective = db.StringField(required=True)
+    recently_liked = db.ListField(db.StringField(), required=False)
 
     def hash_password(self):
         self.password = generate_password_hash(self.password).decode('utf8')
