@@ -94,7 +94,6 @@ def create_index(es_object, index_name="recipe_index"):
 
         else:
             print("Index has been created already")
-            created = True
 
     except Exception as ex:
         print("Error creating the index")

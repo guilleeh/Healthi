@@ -11,41 +11,15 @@ import json
 from elasticsearch import Elasticsearch
 
 
-
-with open('./resources/data/user_collection.json', 'r') as fp:
-    user_collection = json.load(fp)
-
-# print(user_collection)
-current_user = user_collection.get("SHPE-TEXAS")
-health_labels = list()
-diet_labels = list()
-cautions = list()
-objectives = list()
-
-for key, value in current_user.items():
-    if key == "dietLabels":
-        diet_labels = value
-
-    if key == "healthLabels":
-        health_labels = value
-
-    if key == "cautions":
-        cautions = value
-
-    if key == "objectives":
-        objectives = value
-
-print("DIET LABELS:: ", diet_labels)
-print("HEALTH LABELS:: ", health_labels)
-print("CAUTIONS:: ", cautions)
-print("OBJECTIVES:: ", objectives)
-
 elasticsearch = None
 def initialize_es(app):
     global elasticsearch
     elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']]) \
         if app.config['ELASTICSEARCH_URL'] else None
 
+
+def get_elastic_conn():
+    return elasticsearch
 
 class SearchApi(Resource):
 
@@ -58,18 +32,16 @@ class SearchApi(Resource):
         try:
             user_id = get_jwt_identity()
             user = User.objects.get(id=user_id)
-            print(user.cautions)
 
             search_object = {
                 "query": {
                     "bool": {
-                        "must": {
-                            "match": { "label": food_search }
-                        },
+                        "must": {"match": {"label": food_search}},
                         "should": {
-                            "terms": { "healthLabels": user.healthLabels},
-                            "terms": { "dietLabels": user.dietLabels}
-                        },
+                            "terms": {"healthLabels": user.healthLabels},
+                            "terms": {"dietLabels": user.dietLabels}
+                        }
+                        ,
                         "must_not": {
                             "terms": {
                                 "cautions": user.cautions
@@ -86,8 +58,14 @@ class SearchApi(Resource):
                 if key == "hits":
                     for i in range(len(value)):
                         recipes_list.append((value[i]["_source"]))
-            print("Empty_list", recipes_list)
+
+            if user.objective == 'gain':
+                recipes_list.sort(key=lambda x : x['calories'], reverse=True)
+            elif user.objective == 'lose':
+                recipes_list.sort(key=lambda x : x['calories'], reverse=False)
+
             return recipes_list
 
         except Exception as e:
             raise InternalServerError
+

@@ -8,6 +8,9 @@ from database.models import User
 from flask_restful import Resource
 from mongoengine.errors import FieldDoesNotExist, NotUniqueError, DoesNotExist
 from resources.apis.errors import SchemaValidationError, EmailAlreadyExistsError, UnauthorizedError, InternalServerError
+import numpy as np
+import pickle
+
 
 class SignupApi(Resource):
     def post(self):
@@ -15,6 +18,7 @@ class SignupApi(Resource):
             user_dict = dict()
             body = request.get_json()
             user = User(**body)
+            user.representation = []
             user.hash_password()
             user.save()
             id = user.id

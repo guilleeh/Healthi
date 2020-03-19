@@ -6,6 +6,7 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 from database.models import User, Recipe
 from flask_restful import Resource
 from resources.apis.errors import SchemaValidationError, UnauthorizedError, InternalServerError
+from collections import deque
 
 class FeedTunerApi(Resource):
 
@@ -16,10 +17,14 @@ class FeedTunerApi(Resource):
             user_id = get_jwt_identity()
             user = User.objects.get(id=user_id)
 
-            recipe = Recipe.objects.get(uri=uri)
+            q = deque(user.recently_liked)
+            q.append(uri)
+            if len(q) > 10:
+                q.popleft()
 
+            user.recently_liked = list(q)
+
+            return {}, 200
             
-
-
         except Exception as e:
             raise InternalServerError
