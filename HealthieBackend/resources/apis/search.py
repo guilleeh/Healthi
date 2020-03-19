@@ -40,6 +40,7 @@ print("HEALTH LABELS:: ", health_labels)
 print("CAUTIONS:: ", cautions)
 print("OBJECTIVES:: ", objectives)
 
+
 elasticsearch = None
 def initialize_es(app):
     global elasticsearch
@@ -60,7 +61,8 @@ class SearchApi(Resource):
                             "match": { "label": food_search }
                         },
                         "should": {
-                            "terms": { "dietLabels": ["Low-Carb", "Low-Fat"] }
+                            "terms": { "dietLabels": diet_labels },
+                            "terms": { "healthLabels": health_labels}
                         }
                     }
                 }
