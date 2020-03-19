@@ -1,4 +1,4 @@
-## resources/auth.py
+ ## resources/auth.py
 
 import datetime
 import json
@@ -14,24 +14,6 @@ class SignupApi(Resource):
         try:
             user_dict = dict()
             body = request.get_json()
-
-            for key, value in body.items():
-                print(key)
-                if key == "name":
-                    user_dict[value] = body
-
-            print("What is user_dict:: ", user_dict)
-
-            with open('./resources/data/user_collection.json') as fp:
-                user_collection = json.load(fp)
-
-            user_collection.update(user_dict)
-
-            with open('./resources/data/user_collection.json', 'w') as fp:
-                json.dump(user_collection, fp, indent=4)
-
-            user_dict = {}
-
             user = User(**body)
             user.hash_password()
             user.save()
