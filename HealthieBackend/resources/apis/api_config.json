@@ -1,7 +1,0 @@
-{
-  "search_recipe_api" : {
-    "app_key" :"f20172c14754bcaf49dc2748abd92cbe",
-    "app_id" : "5b7cb8f0",
-    "api_url_base" : "https://api.edamam.com/search"
-  }
-}
