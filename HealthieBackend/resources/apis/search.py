@@ -51,7 +51,9 @@ class SearchApi(Resource):
 
     @jwt_required
     def get(self, food_search):
+        print(elasticsearch)
         if not elasticsearch:
+            print("This")
             return []
         try:
             user_id = get_jwt_identity()
@@ -68,8 +70,10 @@ class SearchApi(Resource):
                             "terms": { "healthLabels": user.healthLabels},
                             "terms": { "dietLabels": user.dietLabels}
                         },
-                        "filter": {
-                            "terms": { "cautions": user.cautions}
+                        "must_not": {
+                            "terms": {
+                                "cautions": user.cautions
+                            }
                         }
                     }
                 }
@@ -77,11 +81,12 @@ class SearchApi(Resource):
             res = elasticsearch.search(index='recipe_index', body=json.dumps(search_object), request_timeout=60)
 
             recipes_list = list()
+            print()
             for key, value in res["hits"].items():
                 if key == "hits":
                     for i in range(len(value)):
                         recipes_list.append((value[i]["_source"]))
-
+            print("Empty_list", recipes_list)
             return recipes_list
 
         except Exception as e:

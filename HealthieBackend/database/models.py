@@ -11,9 +11,9 @@ class User(db.Document):
     age = db.IntField(min_value=14, max_value=99, required=True)
     height = db.IntField(min_value=1, max_value=250, required=True) # centimeters
     weight = db.IntField(min_value=50, max_value=500, required=True) # lbs
-    dietLabels = db.ListField(db.StringField(), required=True)
-    healthLabels = db.ListField(db.StringField(), required=True)
-    cautions = db.ListField(db.StringField(), required=True) # cautions = allergies
+    dietLabels = db.ListField(db.StringField(), required=False)
+    healthLabels = db.ListField(db.StringField(), required=False)
+    cautions = db.ListField(db.StringField(), required=False) # cautions = allergies
     objective = db.ListField(db.StringField(), required=True)
     representation = db.BinaryField(required=False)
 
