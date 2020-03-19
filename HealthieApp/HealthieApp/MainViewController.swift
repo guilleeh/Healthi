@@ -4,6 +4,39 @@
 //
 //  Created by Guillermo Hernandez on 3/12/20.
 //  Copyright © 2020 Guillermo Hernandez. All rights reserved.
+
+//            let url = URL(string: "http://localhost:8080/api/auth/search/" + (searchBar.text ?? ""))!
+//
+//
+//            let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+//                guard let data = data else { return }
+//
+//                do {
+//                    if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]] {
+//                        var results: [Food] = []
+//                        for each in json {
+//                            var food: Food = Food()
+//                            food.image = each["image"] as! String
+//                            food.label = each["label"] as! String
+//                            food.calories = each["calories"] as? NSNumber
+//                            food.url = each["url"] as! String
+//                            food.cautions = each["cautions"] as! [String?]
+//                            food.dietLabels = each["dietLabels"] as! [String?]
+//                            food.healthLabels = each["healthLabels"] as! [String?]
+//                            results.append(food)
+//                        }
+//                        self.images = results
+//
+//                        DispatchQueue.main.async {
+//                            self.kolodaView.reloadData()
+//                        }
+//                    }
+//                    print(self.images)
+//                } catch let err {
+//                    print(err)
+//                }
+//            }
+//            task.resume()
 //
 
 import UIKit
@@ -26,33 +59,42 @@ class MainViewController: UIViewController, UISearchBarDelegate{
         print("I was clicked!")
         if( searchBar.text != "") {
             let url = URL(string: "http://localhost:8080/api/auth/search/" + (searchBar.text ?? ""))!
+            var request = URLRequest(url: url)
+            // prepare json data
 
-            let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+            request.httpMethod = "GET"
+//            request.addValue(UserDefaults.standard.string(forKey: "token") ?? "", forHTTPHeaderField: "Authorization")
+            request.setValue( "Bearer \(UserDefaults.standard.string(forKey: "token") ?? "")", forHTTPHeaderField: "Authorization")
+
+            let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
                 guard let data = data else { return }
+                print(data
+                )
                 
                 do {
                     if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]] {
                         var results: [Food] = []
-                        for each in json {
-                            var food: Food = Food()
-                            food.image = each["image"] as! String
-                            food.label = each["label"] as! String
-                            food.calories = each["calories"] as? NSNumber
-                            food.url = each["url"] as! String
-                            food.cautions = each["cautions"] as! [String?]
-                            food.dietLabels = each["dietLabels"] as! [String?]
-                            food.healthLabels = each["healthLabels"] as! [String?]
-                            results.append(food)
-                        }
-                        self.images = results
+                                                for each in json {
+                                                    var food: Food = Food()
+                                                    food.image = each["image"] as! String
+                                                    food.label = each["label"] as! String
+                                                    food.calories = each["calories"] as? NSNumber
+                                                    food.url = each["url"] as! String
+                                                    food.cautions = each["cautions"] as! [String?]
+                                                    food.dietLabels = each["dietLabels"] as! [String?]
+                                                    food.healthLabels = each["healthLabels"] as! [String?]
+                                                    results.append(food)
+                                                }
+                                                self.images = results
                         
-                        DispatchQueue.main.async {
-                            self.kolodaView.reloadData()
-                        }
-                    }
-                    print(self.images)
-                } catch let err {
-                    print(err)
+                                                DispatchQueue.main.async {
+                                                    self.kolodaView.reloadData()
+                                                }
+                                            }
+                                            print(self.images)
+                    
+                } catch {
+                    print("JSON error: \(error.localizedDescription)")
                 }
             }
             task.resume()

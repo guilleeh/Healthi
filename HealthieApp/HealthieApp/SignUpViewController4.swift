@@ -63,7 +63,7 @@ class SignUpViewController4: UIViewController, UITableViewDataSource, UITableVie
                                                "dietLabels": self.user?.dietLabels,
                                                "healthLabels": self.user?.healthLabels,
                                                "cautions": self.user?.cautionLabels,
-                                               "objectives": self.user?.goal
+                                               "objective": self.user?.goal
         ]
                                                 
                 print(body)
