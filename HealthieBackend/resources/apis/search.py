@@ -17,7 +17,28 @@ with open('./resources/data/user_collection.json', 'r') as fp:
 
 # print(user_collection)
 current_user = user_collection.get("SHPE-TEXAS")
-print(type(current_user))
+health_labels = list()
+diet_labels = list()
+cautions = list()
+objectives = list()
+
+for key, value in current_user.items():
+    if key == "dietLabels":
+        diet_labels = value
+
+    if key == "healthLabels":
+        health_labels = value
+
+    if key == "cautions":
+        cautions = value
+
+    if key == "objectives":
+        objectives = value
+
+print("DIET LABELS:: ", diet_labels)
+print("HEALTH LABELS:: ", health_labels)
+print("CAUTIONS:: ", cautions)
+print("OBJECTIVES:: ", objectives)
 
 
 class SearchApi(Resource):
@@ -25,18 +46,42 @@ class SearchApi(Resource):
     def get(self, food_search):
         try:
             es_object = self.connect_elastic_search()
-            search_object = {'query':
-                                 {
-                                     'match': {
-                                          'label': food_search
-                                       }
-                                     # # "bool": {
-                                     #     "filter": {
-                                     #
-                                     #     }
-                                     # # }
-                                  }
-                             }
+            search_object = {
+                # 'query':
+                # {
+                #     'match': {
+                #         'label': food_search
+                #     },
+                #
+                #     # "bool": {
+                #     "filter": {
+                #         "match": {
+                #             "dietLabels": "low-carb"
+                #         }
+                #     }
+                #     # }
+                # }
+                "query": {
+                    "bool": {
+                    # "filtered": {
+                        # "must": [{"match": {"label": food_search}}, {"match": {"dietLabels": "Low-Carb", "dietLabels": "Low-Fat"}}, {"match": {"healthLabels": "Alcohol-Free", "healthLabels": "Vegetarian", "healthLabels": "Peanut-Free", "healthLabels": "Tree-Nut-Free"}}]
+                        # "must": [{"match": {"label": food_search}}, {"match": {"dietLabels": "Balanced"}}, {"match": {"healthLabels": "Sugar-Conscious"}}]
+                        # "query": {"match": {"label": food_search}}
+                        "must": {"match": {"label": food_search}}
+                        ,
+                        # "filter": [
+                        #     {"term": {"totalTime": 0}},
+                        #     {"range": {"calories": {"lt": 1000}}}
+                        # ],
+                        "filter": {
+                            "terms": {
+                                "dietLabels": ["Low-Carb", "Low-Fat"]
+                            }
+                        }
+                        # "filter": [{"term": {"dietLabels": "Low-Carb"}}, {"term": {"healthLabels": "Sugar-Conscious"}}]
+                    }
+                }
+            }
             res = self.search(es_object, 'recipe_index', json.dumps(search_object))
 
             recipes_list = list()
