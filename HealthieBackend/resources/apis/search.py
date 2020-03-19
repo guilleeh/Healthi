@@ -15,7 +15,6 @@ import json
 with open('./resources/data/user_collection.json', 'r') as fp:
     user_collection = json.load(fp)
 
-# print(user_collection)
 current_user = user_collection.get("SHPE-TEXAS")
 health_labels = list()
 diet_labels = list()
@@ -47,41 +46,20 @@ class SearchApi(Resource):
         try:
             es_object = self.connect_elastic_search()
             search_object = {
-                # 'query':
-                # {
-                #     'match': {
-                #         'label': food_search
-                #     },
-                #
-                #     # "bool": {
-                #     "filter": {
-                #         "match": {
-                #             "dietLabels": "low-carb"
-                #         }
-                #     }
-                #     # }
-                # }
                 "query": {
                     "bool": {
-                    # "filtered": {
-                        # "must": [{"match": {"label": food_search}}, {"match": {"dietLabels": "Low-Carb", "dietLabels": "Low-Fat"}}, {"match": {"healthLabels": "Alcohol-Free", "healthLabels": "Vegetarian", "healthLabels": "Peanut-Free", "healthLabels": "Tree-Nut-Free"}}]
-                        # "must": [{"match": {"label": food_search}}, {"match": {"dietLabels": "Balanced"}}, {"match": {"healthLabels": "Sugar-Conscious"}}]
-                        # "query": {"match": {"label": food_search}}
-                        "must": {"match": {"label": food_search}}
-                        ,
-                        # "filter": [
-                        #     {"term": {"totalTime": 0}},
-                        #     {"range": {"calories": {"lt": 1000}}}
-                        # ],
-                        "filter": {
-                            "terms": {
-                                "dietLabels": ["Low-Carb", "Low-Fat"]
-                            }
+                        "must": {
+                            "match": {"label": food_search},
+                            "match": {"dietLabels": ["Low-Carb", "Low-Fat"]},
                         }
-                        # "filter": [{"term": {"dietLabels": "Low-Carb"}}, {"term": {"healthLabels": "Sugar-Conscious"}}]
+                        # ,
+                        # "should": {
+                        #     "terms": {"dietLabels": ["Low-Carb", "Low-Fat"]}
+                        # }
                     }
                 }
             }
+
             res = self.search(es_object, 'recipe_index', json.dumps(search_object))
 
             recipes_list = list()
