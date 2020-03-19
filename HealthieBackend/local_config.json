@@ -1,4 +1,5 @@
 {
     "JWT_SECRET_KEY" : "FESJfmc2TpCOGI4nsst1NP63m4wnBg6ny",
-    "MONGODB_HOST" : "mongodb://localhost/HealthieDB"
+    "MONGODB_HOST" : "mongodb://localhost/HealthieDB",
+    "ELASTICSEARCH_URL" : "http://localhost:9200/"
 }
