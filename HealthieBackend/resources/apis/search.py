@@ -30,15 +30,11 @@ class SearchApi(Resource):
         try:
             user_id = get_jwt_identity()
             user = User.objects.get(id=user_id)
-            if food_search == 'X':
-                match = {"match_all": {}}
-            else:
-                match = {"match": {"label": food_search}}
 
             search_object = {
                 "query": {
                     "bool": {
-                        "must": match,
+                        "must": {"match": {"label": food_search}},
                         "should": {
                             "terms": {"healthLabels": user.healthLabels},
                             "terms": {"dietLabels": user.dietLabels}

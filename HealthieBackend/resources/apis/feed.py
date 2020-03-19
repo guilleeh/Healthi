@@ -13,6 +13,7 @@ import json
 from collections import deque
 
 
+
 embeddings = None
 def initialize_emb():
     with open('embeddings.pkl', 'rb') as f:
@@ -23,13 +24,12 @@ class FeedApi(Resource):
     @jwt_required
     def get(self):
         if not get_elastic_conn():
-            print('you are a failure')
             return []
         try:
             body = request.get_json()
             user_id = get_jwt_identity()
             user = User.objects.get(id=user_id)
-            user_rep = [embeddings[uri] for uri in user.recently_liked]
+            user_rep = np.array([embeddings[uri] for uri in user.recently_liked]).mean(axis=0).tolist()
 
             script_query = {
                 "query": {
