@@ -48,6 +48,9 @@ def initialize_es(app):
         if app.config['ELASTICSEARCH_URL'] else None
 
 
+def get_elastic_conn():
+    return elasticsearch
+
 class SearchApi(Resource):
 
     @jwt_required

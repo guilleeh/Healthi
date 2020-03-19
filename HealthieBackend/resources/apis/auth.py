@@ -18,7 +18,7 @@ class SignupApi(Resource):
             user_dict = dict()
             body = request.get_json()
             user = User(**body)
-            user.representation = pickle.dumps(np.zeros(32))
+            user.representation = []
             user.hash_password()
             user.save()
             id = user.id
