@@ -8,12 +8,13 @@
 
 import UIKit
 import Koloda
+import AlamofireImage
 
 class MainViewController: UIViewController, UISearchBarDelegate{
     @IBOutlet var searchBar: UISearchBar!
     
     @IBOutlet var kolodaView: KolodaView!
-    var images = [String]()
+    var images: [Food] = []
     
     @IBAction func settings(_ sender: UIButton) {
         self.performSegue(withIdentifier: "settingsSegue", sender: nil)
@@ -23,63 +24,31 @@ class MainViewController: UIViewController, UISearchBarDelegate{
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         print("I was clicked!")
         if( searchBar.text != "") {
-//            let url = URL(string: "http://localhost:8080/api/auth/search/cookie")!
-//            print(url)
-//            var request = URLRequest(url: url)
-//
-//            request.httpMethod = "GET"
-//            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//            request.addValue("application/json", forHTTPHeaderField: "Accept")
-//
-//
-//            let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-//                    if error != nil || data == nil {
-//                        print("Client error!")
-//                        return
-//                    }
-//
-//                    guard let response = response as? HTTPURLResponse, (200...299).contains(response.statusCode) else {
-//                        print("Server error!")
-//                        return
-//                    }
-//
-//                    guard let mime = response.mimeType, mime == "application/json" else {
-//                        print("Wrong MIME type!")
-//                        return
-//                    }
-//
-//                    do {
-//                        if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
-//                            print(json)
-//                            }
-//                    } catch {
-//                        print("JSON error: \(error.localizedDescription)")
-//                    }
-//                }
-//                task.resume()
             let url = URL(string: "http://localhost:8080/api/auth/search/" + (searchBar.text ?? ""))!
 
             let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
                 guard let data = data else { return }
                 
                 do {
-//                    let jsonResult =  try JSONSerialization.jsonObject(with: data, options: [])
-//                    print(type(of: jsonResult))
                     if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]] {
+                        var results: [Food] = []
                         for each in json {
-                            self.images.append(each["image"] as! String)
-                            
+                            var food: Food = Food()
+                            food.image = each["image"] as! String
+                            food.label = each["label"] as! String
+                            food.calories = each["calories"] as? NSNumber
+                            results.append(food)
+                        }
+                        self.images = results
+                        
+                        DispatchQueue.main.async {
+                            self.kolodaView.reloadData()
                         }
                     }
                     print(self.images)
-                    
                 } catch let err {
                     print(err)
                 }
-//                print(String(data: data, encoding: .utf8)!)
-                
-                
-                
             }
 
             task.resume()
@@ -123,9 +92,6 @@ extension MainViewController: KolodaViewDelegate {
   }
   
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
-//    let alert = UIAlertController(title: "Congratulation!", message: "Now you're \(images[index])", preferredStyle: .alert)
-//    alert.addAction(UIAlertAction(title: "OK", style: .default))
-//    self.present(alert, animated: true)
         if direction == SwipeResultDirection.right {
              // implement your functions or whatever here
             print("user swiped right")
@@ -144,36 +110,22 @@ extension MainViewController: KolodaViewDataSource {
   }
   
   func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-//    let view = UIImageView(image: UIImage(named: images[index]))
-    
-    let view = UIImageView()
-    
-    let imageUrlString = images[index]
-    print(imageUrlString)
-    
-    guard let imageUrl:URL = URL(string: imageUrlString) else {
-        return UIView()
-    }
-    view.load(url: imageUrl)
-    
-    view.layer.cornerRadius = 20
-    view.clipsToBounds = true
-    return view
-    }
-    
-}
-
-
-extension UIImageView {
-    func load(url: URL) {
-        DispatchQueue.global().async { [weak self] in
-            if let data = try? Data(contentsOf: url) {
-                if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self?.image = image
-                    }
-                }
-            }
+    let imageUrl = URL(string: (images[index].image as? String)!)
+        let data = try? Data(contentsOf: imageUrl!)
+        
+        if let imageData = data {
+            
+            let view = UIImageView(image: UIImage(data: imageData))
+            view.layer.cornerRadius = 20
+            view.clipsToBounds = true
+            return view
+        } else {
+            let view = UIImageView(image: UIImage(named: images[index].label ?? ""))
+            view.layer.cornerRadius = 20
+            view.clipsToBounds = true
+            return view
         }
     }
+    
 }
+

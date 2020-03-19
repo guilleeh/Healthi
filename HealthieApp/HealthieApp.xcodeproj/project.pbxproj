@@ -22,6 +22,7 @@
 		BB932F1D241AE54700AF096E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F1C241AE54700AF096E /* User.swift */; };
 		BB932F1F241AE60F00AF096E /* SignUpViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */; };
 		BB932F21241B214B00AF096E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB932F20241B214B00AF096E /* MainViewController.swift */; };
+		BBCEBC1B2422FECC007AC3D1 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEBC1A2422FECC007AC3D1 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BB932F1C241AE54700AF096E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BB932F1E241AE60F00AF096E /* SignUpViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController2.swift; sourceTree = "<group>"; };
 		BB932F20241B214B00AF096E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BBCEBC1A2422FECC007AC3D1 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		DBE01E735A2E19E636AF28E7 /* Pods-HealthieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthieApp.release.xcconfig"; path = "Target Support Files/Pods-HealthieApp/Pods-HealthieApp.release.xcconfig"; sourceTree = "<group>"; };
 		F07152562AAB93CFD2CA1F90 /* Pods_HealthieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				BB1F9EDA241DA2AE008E1124 /* SignUpViewController3.swift */,
 				BB1F9EDC241DA2C4008E1124 /* SignUpViewController4.swift */,
 				BB932F1C241AE54700AF096E /* User.swift */,
+				BBCEBC1A2422FECC007AC3D1 /* Food.swift */,
 				BB45B72423FC70A4002FCE9C /* SceneDelegate.swift */,
 				BB45B72823FC70A4002FCE9C /* Main.storyboard */,
 				BB5CA9D624217F0500EF7726 /* SettingsViewController.swift */,
@@ -235,6 +238,7 @@
 				BB45B73723FC7B52002FCE9C /* LoginViewController.swift in Sources */,
 				BB5CA9D724217F0500EF7726 /* SettingsViewController.swift in Sources */,
 				BB45B72323FC70A4002FCE9C /* AppDelegate.swift in Sources */,
+				BBCEBC1B2422FECC007AC3D1 /* Food.swift in Sources */,
 				BB6D708223FF13B600998B2B /* SignUpViewController.swift in Sources */,
 				BB932F1F241AE60F00AF096E /* SignUpViewController2.swift in Sources */,
 				BB932F1D241AE54700AF096E /* User.swift in Sources */,
