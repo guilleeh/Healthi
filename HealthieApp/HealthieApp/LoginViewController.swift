@@ -29,6 +29,27 @@
 //                         print("Error", parsingError)
 //                    }
 
+//                if let error = error {
+//                    print("error: \(error)")
+//                } else {
+//                    if let response = response as? HTTPURLResponse {
+//                        print(response)
+//                        print("statusCode: \(response.statusCode)")
+//
+//                        if let data = data, let dataString = String(data: data, encoding: .utf8) {
+//                            let defaults = UserDefaults.standard
+//                            defaults.set("temp", forKey: "token")
+//                            print()
+//
+//                        }
+//                        if (response.statusCode == 200) {
+//                            DispatchQueue.main.async {
+//                                 self.performSegue(withIdentifier: "loginSegue", sender: self)
+//                            }
+//                        }
+//                    }
+//                }
+
 import UIKit
 
 class LoginViewController: UIViewController {
@@ -53,26 +74,6 @@ class LoginViewController: UIViewController {
             request.httpBody = jsonData
 
             let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-//                if let error = error {
-//                    print("error: \(error)")
-//                } else {
-//                    if let response = response as? HTTPURLResponse {
-//                        print(response)
-//                        print("statusCode: \(response.statusCode)")
-//
-//                        if let data = data, let dataString = String(data: data, encoding: .utf8) {
-//                            let defaults = UserDefaults.standard
-//                            defaults.set("temp", forKey: "token")
-//                            print()
-//
-//                        }
-//                        if (response.statusCode == 200) {
-//                            DispatchQueue.main.async {
-//                                 self.performSegue(withIdentifier: "loginSegue", sender: self)
-//                            }
-//                        }
-//                    }
-//                }
                 if error != nil || data == nil {
                     print("Client error!")
                     return

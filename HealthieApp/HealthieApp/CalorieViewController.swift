@@ -11,11 +11,18 @@ import UIKit
 class CalorieViewController: UIViewController {
     
     var user: User?
-
+    @IBOutlet var looseCalorieLabel: UILabel!
+    @IBOutlet var maintainCalorieLabel: UILabel!
+    @IBOutlet var gainCalorieLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let calories: Float = user?.calories ?? 1000.0
+        self.looseCalorieLabel.text = String(calories - 300.0)
+        self.maintainCalorieLabel.text = String(calories)
+        self.gainCalorieLabel.text = String(calories + 300.0)
     }
     @IBAction func back(_ sender: Any) {
         dismiss(animated: true, completion: nil)

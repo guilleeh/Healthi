@@ -85,12 +85,16 @@ class SignUpViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         self.user?.height = selectedHeight
         self.user?.gender = self.gender.titleForSegment(at: gender.selectedSegmentIndex)
         self.user?.calculateCalories()
+        do {
+            sleep(1
+            )
+        }
         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         createUser()
-        if segue.destination is SignUpViewController2 {
+        if segue.destination is CalorieViewController {
             let calorie = segue.destination as! CalorieViewController
             calorie.user = self.user
         }

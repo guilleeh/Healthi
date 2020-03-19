@@ -47,7 +47,7 @@ class User: NSObject {
          Calculates calorie intake for user
          */
     
-        let w = 10.0 * (Float(weight ?? "") ?? 60)
+        let w = 10.0 * ((Float(weight ?? "") ?? 60)) * 0.453592
         let h = 6.25 * ((Float(height ?? "") ?? 10) * 30.48)
         let a = 5.0 * (Float(age ?? "") ?? 15)
         var result:Float = 0
