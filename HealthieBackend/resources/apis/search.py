@@ -2,7 +2,7 @@
 
 import datetime
 from flask import request, current_app
-from flask_jwt_extended import create_access_token
+from flask_jwt_extended import jwt_required, get_jwt_identity
 from database.models import User, Recipe
 from flask_restful import Resource
 from resources.apis.errors import SchemaValidationError, UnauthorizedError, InternalServerError
@@ -49,10 +49,15 @@ def initialize_es(app):
 
 class SearchApi(Resource):
 
+    @jwt_required
     def get(self, food_search):
         if not elasticsearch:
             return []
         try:
+            user_id = get_jwt_identity()
+            user = User.objects.get(id=user_id)
+            print(user.cautions)
+
             search_object = {
                 "query": {
                     "bool": {
@@ -60,7 +65,11 @@ class SearchApi(Resource):
                             "match": { "label": food_search }
                         },
                         "should": {
-                            "terms": { "dietLabels": ["Low-Carb", "Low-Fat"] }
+                            "terms": { "healthLabels": user.healthLabels},
+                            "terms": { "dietLabels": user.dietLabels}
+                        },
+                        "filter": {
+                            "terms": { "cautions": user.cautions}
                         }
                     }
                 }
