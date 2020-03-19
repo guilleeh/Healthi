@@ -94,8 +94,6 @@ def create_index(es_object, index_name="recipe_index"):
 
         else:
             print("Index has been created already")
-            # created = False
-            created = True
 
     except Exception as ex:
         print("Error creating the index")
@@ -151,18 +149,20 @@ if __name__ == '__main__':
     result = open_json_file()
 
     if not es_object.indices.exists(index_name):
+        print("Index does not exist so we will created it")
         # If index does not exist, then created it and stored records in the index
         for key, value in result.items():
-            print(key)
-            print(value)
+            # print(key)
+            # print(value)
 
-            if es_object is not None:
+            if es_object != None:
                 index_check = create_index(es_object, index_name)
-
+                print("Index Check:: ", index_check)
                 if index_check:
                     print("index exists, so we going to store record into index")
                     store_record_check = store_record(es_object, index_name, value)
     else:
         # Search for food
+        print("Index exists so we will search")
         search_object = {'query': {'match': {'label': 'pizza'}}}
         search(es_object, 'recipe_index', json.dumps(search_object))

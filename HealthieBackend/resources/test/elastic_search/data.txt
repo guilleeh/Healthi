@@ -1,0 +1,6583 @@
+Running Elastic Search 
+---------------------------------------------
+Inside connect_elastic_search()
+It has connected!
+Opening file
+File has has been loaded
+Index does not exist so we will created it
+Inside create_index()
+Index has been created
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!
+Inside create_index()
+Index has been created already
+Index Check::  True
+index exists, so we going to store record into index
+Inside store_record()
+Record Stored!

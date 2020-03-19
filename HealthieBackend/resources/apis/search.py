@@ -25,7 +25,9 @@ class SearchApi(Resource):
 
     @jwt_required
     def get(self, food_search):
+        print(elasticsearch)
         if not elasticsearch:
+            print("This")
             return []
         try:
             user_id = get_jwt_identity()
@@ -51,6 +53,7 @@ class SearchApi(Resource):
             res = elasticsearch.search(index='recipe_index', body=json.dumps(search_object), request_timeout=60)
 
             recipes_list = list()
+            print()
             for key, value in res["hits"].items():
                 if key == "hits":
                     for i in range(len(value)):
